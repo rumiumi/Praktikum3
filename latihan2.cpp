@@ -21,7 +21,7 @@ int main() {
             else
                 cout << B << ", " << C << ", " << A;
         else
-            cout << C << ", " << B << ", " << A;
+            cout << C << ", " << A << ", " << B;
     } else {
         if (A < C)
             if (B < C)
@@ -29,6 +29,7 @@ int main() {
             else
                 cout << A << ", " << C << ", " << B;
         else
-            cout << C << ", " << A << ", " << B;
+            cout << C << ", " << B << ", " << A;
     }
+
 }
