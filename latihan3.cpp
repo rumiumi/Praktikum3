@@ -15,12 +15,12 @@ int main() {
     cin >> c;
 
     if (a==b && a==c){
-        cout << "Berdasarkan panjang sisi-sisinya, segitiga tersebut merupakan segitiga sama sisi.";
+        cout << "Segitiga tersebut adalah segitiga sama sisi.";
     } else {
         if (a==b || a==c) {
-        cout << "Berdasarkan panjang sisi-sisinya, segitiga tersebut merupakan segitiga sama kaki.";
+        cout << "Segitiga tersebut adalah segitiga sama kaki.";
         } else {
-        cout << "Berdasarkan panjang sisi-sisinya, segitiga tersebut merupakan segitiga sembarang.";
+        cout << "Segitiga tersebut adalah segitiga sembarang.";
         }
     }
 }
