@@ -29,7 +29,7 @@ int main() {
             else
                 cout << A << ", " << C << ", " << B;
         else
-            cout << C << ", " << B << ", " << A;
+            cout << C << ", " << A << ", " << B;
     }
 
 }
