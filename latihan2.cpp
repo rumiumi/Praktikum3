@@ -14,21 +14,20 @@ int main()
 
     if (A<B){
       if (B<C)
-            cout<< "Bilangan Terbesar Adalah:" << A << ","<< B <<","<< C << endl;
+            cout << A << ", "<< B <<", "<< C << endl;
     else
         if (A<C)
-            cout << "Bilangan Terbesar Adalah: " << A << ' '<< C << ' '<< B << endl;
-        else cout << " Bilangan Terbesar Adalah: " << C << ' '<< A << ' '<< B << endl;
+            cout << A << ", " << C << ", " << B << endl;
+        else cout << C << ", " << A << ", " << B << endl;
     }else {
     if (A<C)
-        cout << " Bilangan Terbesar Adalah: " << B << ' '<< A << ' ' << C << endl;
+        cout << B << ", " << A << ", " << C << endl;
     else
         if (B<C)
 
-        cout<< "Bilangan terbesar Adalah: " << B << ' ' << C << ' ' << A << endl;
+        cout << B << ", " << C << ", " << A << endl;
     else
-        cout << " Bilangan Terbesar Adalah: " << C << ' '<< B << ' '<< A << endl;
+        cout << C << ", " << B << ", " << A << endl;
     }
-
 
 }
