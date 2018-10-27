@@ -2,13 +2,17 @@
 
 ## Latihan 1: Menampilkan Bilangan Terbesar dari Sejumlah Bilangan
 
-**Alur algoritma**
+*Alur algoritma*
 1. Mendeklarasikan variabel `int i=0` `int max=0` dan `int n, a`
 2. Membaca input `cin >> n`
 3. Membaca input `cin >> a` lalu membandingkan `a > max` proses akan diulangi selama kondisi `i<n` benar
 4. Cetak `max`
 
-**Berikut code lengkapnya**
+*Flowchart program*
+
+![flowchart1](https://github.com/rumiumi/Praktikum3/blob/master/flowchart1.jpg)
+
+*Berikut code lengkapnya*
 ```
 #include<iostream>
 using namespace std;
@@ -33,6 +37,11 @@ int main ()
 
 ```
 
+*hasilnya*
+
+![hasil1](https://github.com/rumiumi/Praktikum3/blob/master/hasil1.PNG)
+
+
 ## Latihan 2: Mengurutkan Bilangan dari yang Terkecil ke yang Terbesar
 
 **Alur algoritma**
@@ -49,6 +58,10 @@ int main ()
 11. jika kondisi *false* Bandingkan kembali Variabel B dengan variabel C jika B lebih kecil dari C.
 12. Jika kondisi *true* Maka cetaklah bilangan secara berurutan dari yang terkecil-terbesar yaitu B,C,A
 13. Jika kondisi *false* Maka cetaklah bilangan secara berurutan dari yang terkecil-terbesar yaitu C,B,A
+
+*Flowchart program*
+
+![flowchart2](https://github.com/rumiumi/Praktikum3/blob/master/flowchart2.jpg)
 
 **Berikut code lengkapnya**
 ```
@@ -89,6 +102,11 @@ int main()
 
 ```
 
+*hasilnya*
+
+![hasil2](https://github.com/rumiumi/Praktikum3/blob/master/hasil2.PNG)
+
+
 ## Latihan 3: Menentukan Jenis Segitiga dari Panjang Sisi-Sisinya
 
 **Alur algoritma**
@@ -97,6 +115,10 @@ int main()
 3. Jika nilai `a` sama dengan nilai `b` dan `c` maka tampilkan segitiga sama sisi
 4. Jika nilai `a` sama dengan nilai `b` atau nilai `a` sama dengan nilai `c` maka tampilkan segitiga sama kaki
 5. Selain itu tampilkan segitiga sembarang
+
+*Flowchart program*
+
+![flowchart3](https://github.com/rumiumi/Praktikum3/blob/master/flowchart3.jpg)
 
 **Berikut code lengkapnya**
 ```
@@ -128,3 +150,8 @@ int main() {
 }
 
 ```
+
+*hasilnya*
+
+![hasil3](https://github.com/rumiumi/Praktikum3/blob/master/hasil3.PNG)
+
